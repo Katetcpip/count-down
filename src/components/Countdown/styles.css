@@ -1,0 +1,45 @@
+.expired-notice {
+    text-align: center;
+    line-height: 1.25rem;
+    padding: 0 0.75rem 0 0.75rem;
+    padding-top: 35px;
+}
+
+.expired-notice>span {
+    font-size: 4rem;
+    color: rgba(255, 255, 255, 0.568);
+}
+
+.expired-notice>p {
+    font-size: 1.5rem;
+}
+
+.show-counter {
+    padding: 0.5rem;
+}
+
+.show-counter .countdown {
+    line-height: 1.25rem;
+    padding: 0 0.75rem 0 0.75rem;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.show-counter .countdown>p {
+    margin: 0;
+}
+
+.show-counter .countdown>span {
+    text-transform: uppercase;
+    font-size: 0.75rem;
+    line-height: 1rem;
+}
+
+.countdown {
+    color: white;
+}
+
+.show-counter .countdown.danger {
+    color: #ff0000;
+}
