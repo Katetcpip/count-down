@@ -1,6 +1,6 @@
 function Header () {
     return(
-    <div className="flex flex-row justify-end p-6 w-full bg-slate-900 items-center border border-black border-b-slate-700">
+    <div className="flex flex-row justify-start p-6 w-full bg-slate-900 items-center border border-black border-b-slate-700">
         <div className="w-2/3 flex flex-row justify-start items-center">
             <img className="md:w-10 w-5 md:h-10 h-5" alt="" src={require('./img/Vector.png')}></img>
             <h1 className="md:text-3xl text-xl  text-center font-bold pl-4">CountDown</h1>
