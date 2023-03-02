@@ -15,11 +15,11 @@ const ShowCounter = ({ days, hours, minutes, seconds }) => {
     <div className="show-counter flex flex-row justify-center">
       
         <DateTimeDisplay value={days} type={'Days'} isDanger={days <= 3} />
-        <p className='md:text-6xl text-xl'>:</p>
+        <p className='text-6xl'>:</p>
         <DateTimeDisplay value={hours} type={'Hours'} isDanger={false} />
-        <p className='md:text-6xl text-xl'>:</p>
+        <p className='text-6xl'>:</p>
         <DateTimeDisplay value={minutes} type={'Mins'} isDanger={false} />
-        <p className='md:text-6xl text-xl'>:</p>
+        <p className='text-6xl'>:</p>
         <DateTimeDisplay value={seconds} type={'Seconds'} isDanger={false} />
     </div>
   );
